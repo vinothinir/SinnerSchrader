@@ -1,0 +1,262 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#Evaluate Broken Images"
+          }
+        ],
+        "line": 5,
+        "name": "Broken images check",
+        "description": "",
+        "id": ";broken-images-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7871597496,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the website",
+            "match": {
+              "location": "brokenImageSteps.i_launch_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2038415734,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I see the images",
+            "match": {
+              "location": "brokenImageSteps.i_see_the_images()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4336646621,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I can evaluate the broken images",
+            "match": {
+              "location": "brokenImageSteps.i_can_evaluate_the_broken_images()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "Scenario1.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#Evaluate Basic Auth"
+          }
+        ],
+        "line": 4,
+        "name": "Basic Auth check",
+        "description": "",
+        "id": ";basic-auth-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8004860356,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch authorization page with user credentials",
+            "match": {
+              "location": "basicAuthSteps.authPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3126731336,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I can see authorization success page",
+            "match": {
+              "location": "basicAuthSteps.successVerification()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "Scenario2.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#Evaluate Slider"
+          }
+        ],
+        "line": 5,
+        "name": "Slider check",
+        "description": "",
+        "id": ";slider-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6531500602,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch website",
+            "match": {
+              "location": "sliderSteps.launchWeb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3153868229,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I move slider to max",
+            "match": {
+              "location": "sliderSteps.moveMax()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77005403,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I evaluate max position",
+            "match": {
+              "location": "sliderSteps.evaluateMax()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3747730084,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I move slider to min",
+            "match": {
+              "location": "sliderSteps.moveMin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997956163,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I evaluate min position",
+            "match": {
+              "location": "sliderSteps.evaluateMin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "Scenario3.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#Evaluate Mouse hover details"
+          }
+        ],
+        "line": 5,
+        "name": "Mouse hover check",
+        "description": "",
+        "id": ";mouse-hover-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6447024714,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the website",
+            "match": {
+              "location": "mouseHoverSteps.launchWeb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6433937234,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I mouse hover on the picture",
+            "match": {
+              "location": "mouseHoverSteps.mouseHoverPic()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 959690664,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I evaluate the details of picture",
+            "match": {
+              "location": "mouseHoverSteps.Details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "Scenario4.feature"
+  }
+]
