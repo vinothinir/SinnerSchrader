@@ -16,7 +16,7 @@ public class basicAuthSteps {
     WebDriver driver;
     @Given("^I launch authorization page with user credentials$")
     public void authPage() throws Throwable {
-        System.setProperty("webdriver.chrome.driver","C:\\Vino\\Personal\\Interview\\comwebtest\\src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("disable-infobars");
         driver = new ChromeDriver(options);

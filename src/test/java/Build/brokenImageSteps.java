@@ -13,7 +13,7 @@ public class brokenImageSteps {
     WebDriver driver;
     @Given("^I launch the website$")
     public void i_launch_the_website() throws Throwable {
-        System.setProperty("webdriver.chrome.driver","C:\\Vino\\Personal\\Interview\\comwebtest\\src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("disable-infobars");
         driver = new ChromeDriver(options);
